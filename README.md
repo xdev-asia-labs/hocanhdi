@@ -1,4 +1,4 @@
-# Học Anh Dí 🇬🇧
+# Học Anh Đi 🇬🇧
 
 Website học tiếng Anh miễn phí từ **cơ bản đến nâng cao**, build bằng **Next.js 14 (App Router) + Tailwind CSS + Firebase Auth**.
 

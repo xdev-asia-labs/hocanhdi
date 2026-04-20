@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center gap-4 flex-wrap">
         <Link href="/" className="flex items-center gap-2 font-extrabold text-lg">
           <span className="w-8 h-8 grid place-items-center rounded-lg bg-gradient-to-br from-brand-500 to-cyan-400 text-white">HA</span>
-          Học Anh Dí
+          Học Anh Đi
         </Link>
 
         <button onClick={() => setOpen(!open)} className="md:hidden ml-auto btn-ghost btn-sm" aria-label="Menu">☰</button>

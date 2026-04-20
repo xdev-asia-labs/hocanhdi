@@ -4,7 +4,7 @@ import { BLOG } from '@/data/content';
 
 export const metadata: Metadata = {
   title: 'Blog - Bài viết về học tiếng Anh',
-  description: 'Mẹo học tiếng Anh, phân tích ngữ pháp, kỹ thuật phát âm và luyện nghe từ Học Anh Dí.',
+  description: 'Mẹo học tiếng Anh, phân tích ngữ pháp, kỹ thuật phát âm và luyện nghe từ Học Anh Đi.',
 };
 
 export default function BlogIndex() {

@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       <section className="py-8">
-        <h2 className="text-2xl font-bold mb-5">⭐ Vì sao chọn Học Anh Dí?</h2>
+        <h2 className="text-2xl font-bold mb-5">⭐ Vì sao chọn Học Anh Đi?</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="card"><h3 className="font-bold mb-1">☁️ Lưu tiến độ miễn phí</h3><p className="text-sm text-slate-600 dark:text-slate-400">Đăng nhập Google để đồng bộ qua Firebase (gói Spark miễn phí).</p></div>
           <div className="card"><h3 className="font-bold mb-1">🔊 Phát âm chuẩn</h3><p className="text-sm text-slate-600 dark:text-slate-400">Tích hợp Web Speech API, có chế độ nghe chậm.</p></div>

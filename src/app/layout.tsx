@@ -8,16 +8,16 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   metadataBase: new URL('https://hocanhdi.xdev.asia'),
   title: {
-    default: 'Học Anh Dí - Học tiếng Anh từ cơ bản đến nâng cao',
-    template: '%s | Học Anh Dí',
+    default: 'Học Anh Đi - Học tiếng Anh từ cơ bản đến nâng cao',
+    template: '%s | Học Anh Đi',
   },
   description: 'Website học tiếng Anh miễn phí: bảng chữ cái, từ vựng, ngữ pháp A1-C2, quiz, luyện nghe và blog. Đăng nhập để lưu tiến độ học miễn phí.',
   keywords: ['học tiếng anh', 'tiếng anh miễn phí', 'từ vựng tiếng anh', 'ngữ pháp tiếng anh', 'luyện nghe tiếng anh', 'quiz tiếng anh', 'IPA', 'flashcards'],
-  authors: [{ name: 'Học Anh Dí' }],
+  authors: [{ name: 'Học Anh Đi' }],
   openGraph: {
     type: 'website',
     locale: 'vi_VN',
-    title: 'Học Anh Dí - Học tiếng Anh từ cơ bản đến nâng cao',
+    title: 'Học Anh Đi - Học tiếng Anh từ cơ bản đến nâng cao',
     description: 'Lộ trình rõ ràng A1 → C2, lưu tiến độ qua Google đăng nhập miễn phí.',
   },
   twitter: { card: 'summary_large_image' },
