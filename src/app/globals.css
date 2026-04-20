@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100; }
+  .prose-vi h2 { @apply text-xl font-bold mt-6 mb-2; }
+  .prose-vi h3 { @apply text-lg font-semibold mt-4 mb-1; }
+  .prose-vi p  { @apply my-3 leading-relaxed; }
+  .prose-vi ul, .prose-vi ol { @apply my-3 pl-6 list-disc space-y-1; }
+  .prose-vi ol { @apply list-decimal; }
+  .prose-vi blockquote { @apply border-l-4 border-brand-500 pl-4 my-4 italic text-slate-600 dark:text-slate-300 bg-slate-100 dark:bg-slate-900 py-2 rounded; }
+  .prose-vi code { @apply px-1.5 py-0.5 rounded bg-slate-200 dark:bg-slate-800 text-brand-700 dark:text-brand-300 text-sm; }
+  .prose-vi table { @apply w-full text-sm border-collapse my-3; }
+  .prose-vi th, .prose-vi td { @apply border border-slate-300 dark:border-slate-700 px-3 py-2 text-left; }
+  .prose-vi th { @apply bg-slate-100 dark:bg-slate-800 font-semibold; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition active:scale-95; }
+  .btn-primary { @apply btn bg-brand-600 text-white hover:bg-brand-700; }
+  .btn-ghost   { @apply btn bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700; }
+  .btn-sm { @apply px-3 py-1.5 text-sm rounded-md; }
+  .card { @apply bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-sm; }
+  .tag { @apply inline-block text-xs font-bold uppercase tracking-wide px-2.5 py-0.5 rounded-full bg-brand-100 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300; }
+  .level-A1 { @apply bg-green-600 text-white; }
+  .level-A2 { @apply bg-green-500 text-white; }
+  .level-B1 { @apply bg-yellow-500 text-yellow-950; }
+  .level-B2 { @apply bg-orange-500 text-white; }
+  .level-C1 { @apply bg-red-500 text-white; }
+  .level-C2 { @apply bg-purple-500 text-white; }
+  .level-badge { @apply inline-block text-[10px] font-bold px-2 py-0.5 rounded; }
+}
